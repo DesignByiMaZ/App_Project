@@ -1,0 +1,635 @@
+/*------------------------ General CSS --------------------*/
+*{
+    margin: 0;
+    padding: 0;       
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;  
+}
+
+p{
+    font-size: 14px;    
+}
+/*=================== Genaric Css ===============================*/
+.section-title{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: #333;
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background-color: #129cf3;
+    margin-left: -30px;
+}
+.section-title p {
+    line-height: 28px;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*------------------------- Header ------------------------*/
+
+.header {
+    background-image: url("../images/header-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.header-overlay {
+    background-color:rgba(31, 31, 31, 0.75)
+}
+.logo {
+    padding-bottom: 50px;
+    padding-top: 34px;
+}
+.logo-btn {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color:#fff;
+    background-color: #129cf3; 
+    font-size:33px;
+    border: 3px inset ;        
+}   
+.logo-btn:hover{
+    color: #fff;
+}
+.header-text h1 {
+    color: #fff;
+    padding-top: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.header-text p {
+    color: #FFF;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited 
+{
+    background: transparent;
+    border-color: #129cf3;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.btn-download:hover {
+    background-color: #129cf3;
+    color: #fff;
+}
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited 
+{
+    color: #a9adb0;
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: transparent;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.btn-tour:hover {
+    color: #fff;
+}
+
+.btn-tour i {
+    font-size: 20px;
+    color: #129cf3;
+    padding-left: 5px;
+}
+
+.header-iphone img {
+    width: 100% ;
+    padding-bottom: 25px;
+}
+/*-------------------------About Us----------------------------*/
+
+.choose-us-wrapper{
+    padding-top:50px
+}
+.about-iphone img {
+    margin-top: 8px;
+    width: 100%;
+}
+.choose-us-title{
+    padding-bottom: 40px;
+}
+.choose-us-title h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.choose-us-title h2:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: -20px;
+    left: 0%;
+    width: 100px;
+    background-color: #129cf3;
+}
+.choose-us-title p {
+    font-size: 18px;
+}
+.choose-us-item {
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.choose-us-item div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.choose-us-item div i {
+    font-size: 55px;
+    color: #129cf3;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+
+}
+.choose-us-item h3 {
+    font-size: 20px;
+    color: #343434;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-left: 80px;
+}
+ 
+.choose-us-item p {
+    font-size: 14px;
+    padding-left: 80px;
+    color: #727272;
+}
+
+/*------------------------- TEstimonial ----------------------------*/
+
+.testimonial {
+    background-image: url("../images/testimonial-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: 50% 50%;    
+}
+.testimonial-overlay {
+    background-color: rgba(31, 31, 31, 0.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-inner .item img  {
+    border: 3px solid #129cf3;
+    border-radius: 50%;
+    padding: 3px;
+}
+.testimonial-caption {
+    padding-bottom: 70px;
+}
+.testimonial-caption h2 {
+    color: #129cf3;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.testimonial-caption h4 {
+    color: #129cf3;
+}
+.testimonial-caption h4 span {
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+}
+.testimonial-caption p {
+    color:  #D8D8D8;
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+/*------------------------- Features ----------------------------*/
+
+.features-inner-wrapper {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.left-feature-item {
+    position: relative ;
+    text-align: right;
+    padding-right: 90px;
+    margin-bottom: 30px;
+    margin-top: 85px;
+}
+.left-feature-item-icon {
+    position: absolute;
+    right: 0;
+    top: -8px;
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+    color: #129cf3;
+    text-align: center;
+}
+.left-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
+.left-feature-item p {
+    color: #333;
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.feature-iphone img {
+    width: 100%;
+}
+.right-feature-item {
+    position: relative;
+    text-align: left;
+    padding-left: 90px;
+    margin-bottom: 30px;
+    margin-top: 85px;
+}
+.right-feature-item-icon {
+    position: absolute;
+    left: 0;   
+    top: -8px;
+    width: 90px;
+    height: 90px;
+    color: #129cf3;
+    font-size: 40px;
+    text-align: center;   
+}
+.right-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
+.right-feature-item p {
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 70px;
+}
+
+/*------------------------- Purchase now ----------------------------*/
+.purchase-now {
+    background-color: black ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.purchase-now p {
+    font-size: 18px;
+    color: #dfdfdf;
+    font-weight: 300;
+}
+.btn-puchase-now, 
+.btn-puchase-now:active,
+.btn-puchase-now:visited, 
+.btn-puchase-now:focus
+{
+    
+    border: 1px solid #129cf3;
+    border-radius: 3px;
+    padding: 15px 35px;    
+    background-color: #129cf3;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.btn-puchase-now:hover {
+    background-color: #4ba3da;
+    color: rgb(8, 27, 42);
+    border-color: #022349;
+}
+
+/*------------------------- Screen ----------------------------*/
+
+
+
+
+/*------------------------- Counter ----------------------------*/
+
+.counter {
+    background-image: url("..//images/counter-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.counter-overlay {
+    background-color: rgba(0, 0, 0, .4);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.counter-item i {
+    color: #129cf3;
+    font-size: 60px;
+}
+.counter-item h2 { 
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.counter-item p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 0px;    
+}
+
+/*------------------------- Download ----------------------------*/
+
+.download-now img {
+    width: 99%;
+}
+
+/*------------------------- Available On ----------------------------*/
+
+.available-on {
+    background-color: #1a1a1a;
+    margin-top: -8px;
+    position: relative;
+}
+ .available-title {
+    padding-top: 75px;
+    
+}
+.available-title h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.available-title p {
+    font-size: 15px;
+    color: #b5b5b5;
+    font-weight: 300;
+}
+.no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.apple {
+    color: #fff;
+}
+.android {
+    color: #59e959;
+}
+.windows {
+    color: #129cf3;
+}
+.available-on-item {
+    text-align: center;
+    border-left: 1px solid #0f1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition:all 1s;
+    -o-transition:all 1s;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+}
+.available-on-item:hover {
+    background-color: #121212;  
+}
+.available-on-item i {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 90px;
+    transition: all 1s;    
+    -o-transition:all 1s;    
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    opacity: 1;
+}
+.available-on-item:hover i {
+    opacity: 0;
+}
+.available-on-inner  {
+    position: absolute ;
+    bottom: 93px;
+    opacity: 0 ;
+    width: 100%;
+    transition: all 1s;    
+    -o-transition:all 1s;    
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;    
+}
+.available-on-inner h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+}
+.available-on-item:hover .available-on-inner  {
+    opacity: 1;
+}
+
+/*=================== Contact Us ===============================*/
+
+.contact-us-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px ;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #129cf3;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px  ;
+    transition : all 1s;
+    -o-transition : all 1s;
+    -moz-transition : all 1s;
+    -webkit-transition : all 1s;
+}
+#massage {
+    height: 117px;
+    resize: none;
+}
+.submit-btn, 
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited
+{
+    margin-top: -1px;
+    background-color: transparent;
+    border: 1px solid #129cf3;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    color: #129cf3;
+    font-size: 18px;    
+    transition : all 1s;
+    -o-transition : all 1s;
+    -moz-transition : all 1s;
+    -webkit-transition : all 1s;
+}
+.submit-btn:hover {
+    color: #FFF;
+    background-color: #129cf3;
+    font-weight: 500;
+}
+.social-icons {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.social-icons ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social-icons ul li {
+    display: inline;
+    padding-left: 10px;
+    list-style-type: none;
+}
+.social-icons ul li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #9d9d9d;    
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    color: #9d9d9d;
+    transition : all 1s;
+    -o-transition : all 1s;
+    -moz-transition : all 1s;
+    -webkit-transition : all 1s;
+}
+.social-icons ul li a i {
+    font-size: 20px;
+}
+.social-icons ul li a:hover {
+    color: #fff;
+    border: 1px solid #9d9d9d;
+}
+#fb:hover{
+    background-color: #3b5998;
+}
+#twt:hover{
+    background-color: #00acee;
+}
+#yt:hover{
+    background-color: #FF0000;
+}
+
+/*=================== Footer ===============================*/
+
+.footer {
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: 3px solid #129cf3 ;
+}
+#copyright {
+    width: 50%;
+}
+#copyright p {
+    color: #8c8b8a;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+#copyright a {
+    text-decoration: none;
+    color: #129cf3;
+}
+.scroll-up {
+    text-align: right;
+}
+.scroll-up  a  {
+    background-color: #129cf3;
+    padding: 25px;    
+}
+.scroll-up  a i {
+    color: #fff;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
